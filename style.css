@@ -1,0 +1,181 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(35, 33, 33);
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h4 {
+  margin: 0;
+}
+
+/* //header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo a {
+  color: beige;
+  text-decoration: none;
+}
+.header .menu a {
+  color: beige;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80) no-repeat fixed;
+  background-size: cover;
+}
+.hero-center {
+  padding: 20% 0;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.hero-center h2 {
+  color: beige;
+  font-size: 3em;
+}
+.hero-center p {
+  color: white;
+  line-height: 180%;
+}
+
+.overlay {
+  width: 100%;
+  position: relative;
+  background: rgba(11, 11, 11, 0.55);
+}
+
+.btn {
+  background: green;
+  padding: 20px 40px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.about {
+  padding: 10%;
+  color: white;
+}
+.about-image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-image .imageone {
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.about-image .imageone img {
+  transform: scale(2.2);
+}
+.about-image .imagetwo {
+  width: 50%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.about-image .imagetwo img {
+  transform: scale(2.2);
+}
+.about-desc {
+  width: 50%;
+}
+.about h4 {
+  color: orange;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+.about h2 {
+  font-size: 3em;
+}
+.about p {
+  line-height: 180%;
+}
+
+.service {
+  padding: 10% 0;
+  background: black;
+}
+.service-title {
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+.service-item {
+  color: white;
+  width: 18%;
+  background-color: rgb(43, 42, 42);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.service-item .icon {
+  width: 64px;
+}
+
+.project {
+  padding: 5% 0;
+}
+.project-title {
+  padding: 0 0 5%;
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.project-title h3 {
+  color: orange;
+  font-weight: 300;
+}
+.project-title h2 {
+  font-size: 3em;
+}
+.project-title p {
+  line-height: 180%;
+}
+.project .category {
+  background: black;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: -150px;
+  position: relative;
+  z-index: 1;
+}
+.project .category-image {
+  width: 20%;
+  height: 155px;
+  overflow: hidden;
+}
+.project .category-desc {
+  width: 30%;
+}
+.project .copyright {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
